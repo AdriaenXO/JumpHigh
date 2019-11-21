@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/actors/Player.gd" type="Script" id=1]
+[ext_resource path="res://assets/character.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 40, 49 )
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( 319, 0 )
+scale = Vector2( 0.5, 0.5 )
+collision_mask = 8
+script = ExtResource( 1 )
+gravity = 500.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+limit_left = 0
+limit_right = 1280
+limit_bottom = 0
+smoothing_enabled = true
+
+[node name="player" type="Sprite" parent="."]
+position = Vector2( 0, -48 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -48 )
+shape = SubResource( 1 )

@@ -1,6 +1,8 @@
 # JumpHigh
 2D platform game created in Godot
 
+![Screenshot](https://github.com/AdriaenXO/JumpHigh/blob/master/Screenshot.png)
+
 ## 1. Goal
 The goal of this project is to make a jumping platform game, similar to Icys Tower developed by Free Lunch Design and released in 2001. Project is going to be developed in Godot Engine v.3.1.1.
 

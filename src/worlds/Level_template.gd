@@ -1,10 +1,10 @@
 extends Node2D
 
 export var platform_length: int = 20
-export var platforms_per_length: int = 5
+export var platforms_per_length: int = 10
 export var platforms_per_tileset: int = 10
 export var distance_between_platforms: int = 5
-export var tiles_to_generate: int = 20
+export var tiles_to_generate: int = 500
 var starting_position: int = 3
 var current_tileset_id: int = 0
 var number_of_tilesets: int = 6

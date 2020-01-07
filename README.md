@@ -3,6 +3,8 @@
 
 ![Screenshot](https://github.com/AdriaenXO/JumpHigh/blob/master/Screenshot.png)
 
+Live version can be viewed [here](https://adriaenxo.github.io/JumpHigh).
+
 ## 1. Goal
 The goal of this project is to make a jumping platform game, similar to Icys Tower developed by Free Lunch Design and released in 2001. Project is going to be developed in Godot Engine v.3.1.1.
 
